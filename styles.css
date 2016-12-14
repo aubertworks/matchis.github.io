@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    margin: auto
+}
+
+#topnav {
+    position: fixed;
+    padding-top: 1.0em;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height:40px
+}
+
+#leftcolnav {
+    width:40%;
+    float:left;
+}
+
+#bannerlogo {
+    width: 100px;
+    max-width:100%;
+    margin-bottom: 3em;
+    padding-left:3em;
+}
+
+#rightcolnav {
+    line-height: 1.5em;
+    list-style-type: none;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    font-family: roboto;
+    font-size:12px;
+    margin-top:0.5em;
+}
+
+
+nav ul {
+    line-height: 1.5em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 50%;
+    font-family: roboto;
+    padding-right:3em;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+#content {
+    padding-top: 260px;
+    text-align: center;
+    font-family: roboto;
+    width: 100%;
+}
+
+#content ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.avatar {
+    max-width: 250px;
+}
+
+#welcome {
+    margin: auto;
+    font-family: monospace;
+    font-size: 20px;
+}
