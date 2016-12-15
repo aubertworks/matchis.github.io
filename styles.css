@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*all pages*/
+
 body {
     margin: auto
 }
@@ -8,31 +11,30 @@ body {
     padding-top: 1.0em;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
-    height:40px
+    height: 40px
 }
 
 #leftcolnav {
-    width:40%;
-    float:left;
+    width: 40%;
+    float: left;
 }
 
 #bannerlogo {
     width: 100px;
-    max-width:100%;
+    max-width: 100%;
     margin-bottom: 3em;
-    padding-left:3em;
+    padding-left: 3em;
 }
 
 #rightcolnav {
     line-height: 1.5em;
     list-style-type: none;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-flow: row wrap;
     font-family: roboto;
-    font-size:12px;
-    margin-top:0.5em;
+    font-size: 12px;
+    margin-top: 0.5em;
 }
-
 
 nav ul {
     line-height: 1.5em;
@@ -43,7 +45,7 @@ nav ul {
     margin: auto;
     width: 50%;
     font-family: roboto;
-    padding-right:3em;
+    padding-right: 3em;
 }
 
 nav a:link {
@@ -66,7 +68,12 @@ nav a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    width: 100%;
+    margin: auto;
 }
+
+
+/*mymatchis page*/
 
 .avatar {
     max-width: 250px;
@@ -76,4 +83,31 @@ nav a:hover {
     margin: auto;
     font-family: monospace;
     font-size: 20px;
+}
+
+
+/*login page*/
+
+#leftcolhome {
+    width: 50%;
+    float:left;
+}
+
+#homepageimg {
+    max-width:100%;
+    width:70%;
+}
+
+#rightcolhome {
+    flex: auto;
+    display: flex;
+    float:right;
+    align-content:left;
+}
+
+#userlog {
+    text-align:center;
+    font-size: 12px;
+    font-family: roboto;
+    padding-right:30em;
 }
