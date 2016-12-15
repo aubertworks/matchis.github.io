@@ -87,6 +87,9 @@ nav a:hover {
 
 
 /*login page*/
+#logindiv {
+    width=100%;
+}
 
 #leftcolhome {
     width: 50%;
@@ -110,4 +113,8 @@ nav a:hover {
     font-size: 12px;
     font-family: roboto;
     padding-right:30em;
+}
+
+#aboutdiv {
+    max-width=100%;
 }
